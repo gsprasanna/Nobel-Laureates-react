@@ -1,5 +1,5 @@
 const routes = {
-  category: "/Nobel-Laureates-App/:category"
+  category: "/Nobel-Laureates/:category"
 };
 
 export default routes;

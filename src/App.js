@@ -15,7 +15,7 @@ class App extends Component {
         <Header />
         <Route
           exact
-          path="/Nobel-Laureates-App/"
+          path="/Nobel-Laureates/"
           component={NobelPrizeCategories}
         />
         <Route exact path={routes.category} component={NobelLaureates} />
