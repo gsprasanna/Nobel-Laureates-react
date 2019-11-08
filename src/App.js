@@ -13,11 +13,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Route
-          exact
-          path="/Nobel-Laureates/"
-          component={NobelPrizeCategories}
-        />
+        <Route exact path="/Nobel-Laureates" component={NobelPrizeCategories} />
         <Route exact path={routes.category} component={NobelLaureates} />
         <Footer />
       </div>
