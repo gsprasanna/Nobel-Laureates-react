@@ -9,6 +9,12 @@ import Header from "./Components/Header";
 
 class App extends Component {
   state = {};
+  componentDidMount() {
+    const { history, location } = this.props;
+    if (location.pathname === "/") {
+      history.push("/Nobel-Laureates");
+    }
+  }
   render() {
     return (
       <div>
