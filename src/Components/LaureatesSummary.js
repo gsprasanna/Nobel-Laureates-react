@@ -9,16 +9,11 @@ const LaureatesSummary = ({
   category = "",
   details
 }) => {
-  debugger;
-  console.log(laureatesList);
-  // console.log();
   return (
     <>
       {Array.isArray(laureatesList) ? (
         laureatesList.length ? (
           laureatesList.map((laureates, Index) => {
-            debugger;
-            console.log(laureates);
             let laureatesDetails = details.find(x => x.id === laureates.id);
             return (
               <>

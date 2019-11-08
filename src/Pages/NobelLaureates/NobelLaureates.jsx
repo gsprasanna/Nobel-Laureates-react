@@ -37,10 +37,6 @@ class NobelLaureates extends Component {
   loadNobelLaureatesData = async () => {
     try {
       const laureatesDetails = await fetchData(GET_LAUREATES_API, "GET");
-      debugger;
-      console.log(laureatesDetails);
-
-      debugger;
       this.setState({ laureatesDetails: laureatesDetails.laureates });
     } catch (e) {
       console.error(e);
