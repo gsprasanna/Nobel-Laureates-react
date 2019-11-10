@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "393d6fbc32f2fea9690230eb75578b0b",
+    "revision": "293c1834aa2028758f3bb80317d97cb6",
     "url": "/Nobel-Laureates-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Nobel-Laureates-react/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "4027ee5df072432f3fbb",
+    "revision": "1545649101fcab0128a1",
     "url": "/Nobel-Laureates-react/static/css/main.8dd5a3a7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Nobel-Laureates-react/static/js/2.f89eb226.chunk.js"
   },
   {
-    "revision": "4027ee5df072432f3fbb",
-    "url": "/Nobel-Laureates-react/static/js/main.29e682ee.chunk.js"
+    "revision": "1545649101fcab0128a1",
+    "url": "/Nobel-Laureates-react/static/js/main.60e7ca16.chunk.js"
   },
   {
     "revision": "5d15cc305d328df9e3b1",

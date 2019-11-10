@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Nobel-Laureates-react/static/css/main.8dd5a3a7.chunk.css",
-    "main.js": "/Nobel-Laureates-react/static/js/main.29e682ee.chunk.js",
-    "main.js.map": "/Nobel-Laureates-react/static/js/main.29e682ee.chunk.js.map",
+    "main.js": "/Nobel-Laureates-react/static/js/main.60e7ca16.chunk.js",
+    "main.js.map": "/Nobel-Laureates-react/static/js/main.60e7ca16.chunk.js.map",
     "runtime-main.js": "/Nobel-Laureates-react/static/js/runtime-main.7b2a155f.js",
     "runtime-main.js.map": "/Nobel-Laureates-react/static/js/runtime-main.7b2a155f.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/Nobel-Laureates-react/static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.f89eb226.chunk.js": "/Nobel-Laureates-react/static/js/2.f89eb226.chunk.js",
     "static/js/2.f89eb226.chunk.js.map": "/Nobel-Laureates-react/static/js/2.f89eb226.chunk.js.map",
     "index.html": "/Nobel-Laureates-react/index.html",
-    "precache-manifest.172b2804f07dfb425484eb984cc22c77.js": "/Nobel-Laureates-react/precache-manifest.172b2804f07dfb425484eb984cc22c77.js",
+    "precache-manifest.0c2e196061e870ebfc92623303e038e2.js": "/Nobel-Laureates-react/precache-manifest.0c2e196061e870ebfc92623303e038e2.js",
     "service-worker.js": "/Nobel-Laureates-react/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/Nobel-Laureates-react/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.8dd5a3a7.chunk.css.map": "/Nobel-Laureates-react/static/css/main.8dd5a3a7.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.f89eb226.chunk.js",
     "static/css/main.8dd5a3a7.chunk.css",
-    "static/js/main.29e682ee.chunk.js"
+    "static/js/main.60e7ca16.chunk.js"
   ]
 }
