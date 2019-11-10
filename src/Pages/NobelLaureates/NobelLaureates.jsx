@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import fetchData from "../../Services/fetchData";
-import { GET_PRIZE_API, GET_LAUREATES_API } from "../../Constants/ServerUrls";
+import { GET_LAUREATES_API } from "../../Constants/ServerUrls";
 import LoadingIndicator from "../../Components/LoadingIndicator";
 import LaureatesSummary from "../../Components/LaureatesSummary";
 import LazyLoad from "react-lazyload";
@@ -12,28 +12,19 @@ class NobelLaureates extends Component {
     laureatesDetails: []
   };
   componentDidMount() {
-    const { match = {} } = this.props;
     debugger;
+    const { match = {} } = this.props;
     const { params = {} } = match;
     const { category: selectedCategory = "" } = params;
     this.setState({ selectedCategory: selectedCategory });
-    debugger;
-    this.loadNobelPrizeCategoryData();
-    debugger;
+    const categoriesList = this.props.categoriesList;
+    const filteredCategories = categoriesList.prizes.filter(
+      prize => prize["category"] === selectedCategory
+    );
+    const laureatesList = filteredCategories.sort((a, b) => b.year - a.year);
+    this.setState({ laureatesList });
     this.loadNobelLaureatesData();
   }
-  loadNobelPrizeCategoryData = async () => {
-    try {
-      const categoriesList = await fetchData(GET_PRIZE_API, "GET");
-      const filteredCategories = categoriesList.prizes.filter(
-        prize => prize["category"] === this.state.selectedCategory
-      );
-      const laureatesList = filteredCategories.sort((a, b) => b.year - a.year);
-      this.setState({ laureatesList });
-    } catch (e) {
-      console.error(e);
-    }
-  };
   loadNobelLaureatesData = async () => {
     try {
       const laureatesDetails = await fetchData(GET_LAUREATES_API, "GET");
