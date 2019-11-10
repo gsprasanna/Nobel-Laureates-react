@@ -17,7 +17,7 @@ class App extends Component {
   componentDidMount() {
     const { history, location } = this.props;
     if (location.pathname === "/") {
-      history.push("/Nobel-Laureates");
+      history.push("/Nobel-Laureates-react");
     }
     this.loadNobelPrizeCategoryData();
   }
@@ -39,7 +39,7 @@ class App extends Component {
         <Header />
         <Route
           exact
-          path={"/Nobel-Laureates"}
+          path={"/Nobel-Laureates-react"}
           render={() => (
             <NobelPrizeCategories prizeCategories={prizeCategories} />
           )}
